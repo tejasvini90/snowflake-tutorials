@@ -117,3 +117,11 @@ drop warehouse if exists sf_tuts_wh;
 https://docs.snowflake.net/manuals/user-guide/data-unload-s3.html
 
 Credits: https://docs.snowflake.net/manuals/user-guide-getting-started.html
+
+#####steps to put query result in snowsql to file
+nowsql -c example -d sf_tuts -w SF_TUTS_WH -q "select * from EMP_BASIC1" -o output_format=csv -o header=false -o timing=false -o friendly=false  > output_file2.csv
+
+when you have function no need for -q give :
+
+snowsql -c example -d sf_tuts -w SF_TUTS_WH -f loadingsteps1.sql -o output_format=csv -o header=false -o timing=false -o friendly=false  > output_file2.csv
+
