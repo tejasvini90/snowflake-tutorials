@@ -1,0 +1,56 @@
+"status"
+"Database SF_TUTS successfully created."
+"status"
+"Statement executed successfully."
+"status"
+"Table EMP_BASIC1 successfully created."
+"status"
+"Warehouse SF_TUTS_WH successfully created."
+"status"
+"Statement executed successfully."
+employees02.csv_c.gz(0.00MB): [##########] 100.00% Done (1.548s, 0.00MB/s).
+employees03.csv_c.gz(0.00MB): [##########] 100.00% Done (1.604s, 0.00MB/s).
+employees01.csv_c.gz(0.00MB): [##########] 100.00% Done (1.554s, 0.00MB/s).
+employees04.csv_c.gz(0.00MB): [##########] 100.00% Done (1.595s, 0.00MB/s).
+employees05.csv_c.gz(0.00MB): [##########] 100.00% Done (0.070s, 0.00MB/s).
+"source","target","source_size","target_size","source_compression","target_compression","status","message"
+"employees01.csv","employees01.csv.gz","374","291","NONE","GZIP","UPLOADED",""
+"employees02.csv","employees02.csv.gz","369","279","NONE","GZIP","UPLOADED",""
+"employees03.csv","employees03.csv.gz","412","300","NONE","GZIP","UPLOADED",""
+"employees04.csv","employees04.csv.gz","380","294","NONE","GZIP","UPLOADED",""
+"employees05.csv","employees05.csv.gz","409","305","NONE","GZIP","UPLOADED",""
+"file","status","rows_parsed","rows_loaded","error_limit","errors_seen","first_error","first_error_line","first_error_character","first_error_column_name"
+"employees04.csv.gz","LOADED","5","5","1","0","","","",""
+"employees01.csv.gz","LOADED","5","5","1","0","","","",""
+"employees02.csv.gz","LOADED","5","5","1","0","","","",""
+"employees03.csv.gz","LOADED","5","5","1","0","","","",""
+"employees05.csv.gz","LOADED","5","5","1","0","","","",""
+"status"
+"Function FN successfully created."
+"EMAIL","CITY"
+"wsizeyf@sf_tuts.com","Taibao"
+"dmcgowrang@sf_tuts.com","Banjar Bengkelgede"
+"cbedderh@sf_tuts.co.au","Leninskoye"
+"davoryi@sf_tuts.com","Wenlin"
+"rtalmadgej@sf_tuts.co.uk","Yawata"
+"lboissier@sf_tuts.com","Shikrpur"
+"ihanks1@sf_tuts.com","Monte-Carlo"
+"alaudham2@sf_tuts.com","Pramw"
+"ecornner3@sf_tuts.com","Norrköping"
+"hgoolding4@sf_tuts.com","Osielsko"
+"ndorgan5@sf_tuts.com","Pampas Chico"
+"cdevereu6@sf_tuts.co.au","Magapit"
+"gglaserman7@sf_tuts.com","Shiquanhe"
+"icasemore8@sf_tuts.com","Campina Grande"
+"chovie9@sf_tuts.com","Miami"
+"afeatherstona@sf_tuts.com","Calatrava"
+"hanneslieb@sf_tuts.com","Aleysk"
+"bciccoc@sf_tuts.com","Sinegor'ye"
+"bdurnalld@sf_tuts.com","Sabadell"
+"kmacconnale@sf_tuts.com","Qingshu"
+"adavidovitsk@sf_tuts.com","Meniko"
+"vshermorel@sf_tuts.com","Troitsk"
+"rmattysm@sf_tuts.com","Bayaguana"
+"soluwatoyinn@sf_tuts.com","Semënovskoye"
+"gbassfordo@sf_tuts.co.uk","Kardítsa"
+
